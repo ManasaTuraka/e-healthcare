@@ -1,0 +1,347 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="OnlineMedicalStoreProject.Users.UserMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Author -->
+    <meta name="author" content="Themesindustry">
+    <!-- description -->
+    <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 8 ready home page demos.">
+    <!-- keywords -->
+    <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
+    <!-- Page Title -->
+    <title>Online Medical Store </title>
+    <!-- Favicon -->
+    <link rel="icon" href="corporate/img/favicon.ico">
+    <!-- Bundle -->
+    <link rel="stylesheet" href="vendor/css/bundle.min.css">
+    <link rel="stylesheet" href="vendor/css/revolution-settings.min.css">
+    <!-- Plugin Css -->
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/css/swiper.min.css">
+    <link rel="stylesheet" href="vendor/css/cubeportfolio.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="corporate/css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+    <form id="form1" runat="server">
+        <div>
+            <div class="loader">
+    <div class="loader-inner">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+</div>
+<!--Loader End-->
+
+<!--header Start-->
+<header class="header-with-top">
+    <!--header top-->
+    <div class="top-header-area bg-dark text-white alt-font">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="address text-left">
+                        +91 5689957562
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul class="header-social text-right">
+                        <li><a href="javascript:void(0);" class="facebook-text-hvr"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="javascript:void(0);" class="twitter-text-hvr"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="javascript:void(0);" class="instagram-text-hvr"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="javascript:void(0);" class="pinterest-text-hvr"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-static">
+        <div class="container">
+
+            
+
+            <button class="sidemenu-button d-lg-none" type="button" data-toggle="collapse" data-target="#ntg" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sidemenu-toggler"></span>
+                <span class="sidemenu-toggler"></span>
+                <span class="sidemenu-toggler"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between align-items-center" id="ntg">
+                <ul class="navbar-nav mx-auto alt-font">
+                    <li class="nav-item">
+                        <a  href="Home.aspx">Home</a>
+                    </li>&nbsp&nbsp&nbsp
+                    <li class="nav-item">
+                        <a  href="About.aspx">About Us</a>
+                    </li>&nbsp&nbsp&nbsp
+                    <li class="nav-item">
+                        <a  href="Services.aspx">Our Services</a>
+                    </li>&nbsp&nbsp&nbsp
+                    <li class="nav-item">
+                        <a  href="Portfolio.aspx">Portfolio</a>
+                    </li>&nbsp&nbsp&nbsp
+                    <li class="nav-item">
+                        <a  href="News.aspx">News</a><!--blog-->
+                    </li>&nbsp&nbsp&nbsp
+                    <li class="nav-item">
+                        <a  href="Medicine.aspx">Medicine</a>
+                    </li>&nbsp&nbsp&nbsp
+                      <li class="nav-item">
+                        <a  href="Login.aspx">Order Now</a>
+                    </li>&nbsp&nbsp&nbsp
+                </ul>
+                <a href="Registration.aspx" >Registeration</a>&nbsp&nbsp
+                <a href="Login.aspx" >Login</a>
+            </div>
+
+        </div>
+    </nav>
+
+</header>
+<!--header End-->
+
+<!--Slider Start-->
+<section id="home" class="home">
+    <div id="rev_slider_22_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="ntg_slider1" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.8.1 fullwidth mode -->
+        <div id="rev_slider_22_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8.1">
+            <ul>	<!-- SLIDE  -->
+                <li data-index="rs-95" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="corporate/img/slider-slide1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <div class="bg-overlay bg-black opacity-5"></div>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','-1']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-65','-65','-65','-65']"
+                         data-fontsize="['70','70','55','40']"
+                         data-lineheight="['75','75','60','60']"
+                         data-width="['1000','1000','600','450']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":330,"speed":1490,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; min-width: 1000px; max-width: 1000px; white-space: nowrap; font-size: 70px; line-height: 75px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family: 'UbuntuTitling', Arial, sans-serif;">WE LOVE HEALTH  </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-11','-11']"
+                         data-fontsize="['20','20','18','16']"
+                         data-width="['800','800','600','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1430,"speed":1490,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 18px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 1px;font-family: 'Ubuntu', sans-serif;"></div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','top','middle','middle']" data-voffset="['69','370','50','70']"
+                         data-width="['801','801','600','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2570,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; "></div>
+                </li>
+                <!-- SLIDE  -->
+                <li data-index="rs-96" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="corporate/img/slider-slide2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <div class="bg-overlay bg-black opacity-5"></div>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','-1','-1']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-65','-65','-65','-65']"
+                         data-fontsize="['70','70','55','40']"
+                         data-lineheight="['75','75','60','60']"
+                         data-width="['1000','1000','600','450']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":330,"speed":1490,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; min-width: 1000px; max-width: 1000px; white-space: nowrap; font-size: 70px; line-height: 75px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family: 'UbuntuTitling', Arial, sans-serif;">WE LOVE HEALTH  </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-11','-11']"
+                         data-fontsize="['20','20','18','16']"
+                         data-width="['800','800','600','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1430,"speed":1490,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; min-width: 800px; max-width: 800px; white-space: normal; font-size: 18px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 1px;font-family: 'Ubuntu', sans-serif;"></div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','top','middle','middle']" data-voffset="['69','370','50','70']"
+                         data-width="['801','801','600','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2570,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":310,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; ">
+                </li>
+            </ul>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+    </div><!-- END REVOLUTION SLIDER -->
+</section>
+
+            <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+<footer class="footer-area section-padding">
+    <div class="container">
+        <div class="row text-md-left text-center">
+            <!--Column-->
+            <div class="col-lg-4 col-md-6">
+                <h3 class="mb-3 text-white">Company</h3>
+                <p class="text-white">Online Medical Store is a new-age, tertiary care, multi-specialty healthcare facility that is designed to offer efficiency and effectiveness in its clinical and diagnostic services.
+                    <br>
+                    D-wing, Sector 5, Nerul, Navi Mumbai, 
+                    <br><br>
+                    Maharashtra 400706 </p>
+
+            </div>
+            <!--Column-->
+            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                <h3 class="mb-3 text-white"></h3>
+                <div class="footer-list">
+                    <!--List-->
+                   
+                </div>
+            </div>
+            <!--Column-->
+            <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
+                <h3 class="mb-3 text-white">We Are Social</h3>
+                <ul class="footer-icon">
+                    <li><a href="javascript:void(0);" class="facebook-text-hvr"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="javascript:void(0);" class="twitter-text-hvr"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0);" class="instagram-text-hvr"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="javascript:void(0);" class="pinterest-text-hvr"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="javascript:void(0);" class="linkedin-text-hvr"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="javascript:void(0);" class="google-text-hvr"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+
+                <h6 class="text-white mb-3">Ocassionally hear from us</h6>
+                <label class="input-group footer-mail">
+                    <input type="email" class="form-control" placeholder="Enter Email Address">
+                <button class="btn btn-medium btn-green btn-hvr-white" type="submit">YES I'M IN</button>
+                </label>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer End-->
+
+<!--Scroll Top Start-->
+<span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
+<!--Scroll Top End-->
+
+<!-- JavaScript -->
+<script src="vendor/js/bundle.min.js" type="text/javascript"></script>
+<!-- Plugin Js -->
+<script src="vendor/js/jquery.appear.js" type="text/javascript"></script>
+<script src="vendor/js/jquery.fancybox.min.js" type="text/javascript"></script>
+<script src="vendor/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="vendor/js/parallaxie.min.js" type="text/javascript"></script>
+<script src="vendor/js/wow.min.js" type="text/javascript"></script>
+<script src="vendor/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="vendor/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="vendor/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<!-- SLIDER REVOLUTION EXTENSIONS -->
+<script src="vendor/js/extensions/revolution.extension.actions.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.carousel.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.kenburn.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.migration.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+<script src="vendor/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+<!--contact form-->
+<script src="vendor/js/contact_us.js"></script>
+<!-- google map -->
+<%--<script src="#"></script>--%>
+<script src="corporate/js/map.js" type="text/javascript"></script>
+<!-- custom script -->
+<script src="corporate/js/script.js" type="text/javascript"></script>
+
+        </div>
+    </form>
+</body>
+</html>
